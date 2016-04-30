@@ -11,6 +11,7 @@
 		private $telefone_contato;
 		private $celular_contato;
 		private $necessidades_especiais;
+		private $possuiNecessidadesEspeciais;
 				
 		public function setId($value){
 			$this->id = $value;
@@ -91,6 +92,15 @@
 		
 		public function getNecessidades_especiais(){
 			return $this->necessidades_especiais;
+		}
+
+		//Possui Necessidades Especiais	(S/N)
+		public function setPossuiNecessidadesEspeciais($value){
+			$this->PossuiNecessidadesEspeciais = $value;
+		}
+		
+		public function getPossuiNecessidadesEspeciais(){
+			return $this->PossuiNecessidadesEspeciais;
 		}
 				
 }
