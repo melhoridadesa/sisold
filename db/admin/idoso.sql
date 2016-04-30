@@ -7,6 +7,7 @@ CREATE TABLE `idoso` (
   `grau_parentesco` varchar(50) NOT NULL,
   `telefone_contato` varchar(10) DEFAULT NULL,
   `celular_contato` varchar(11) NOT NULL,
+  `possui_necessidades_especiais` varchar(1) NOT NULL,
   `necessidades_especiais` varchar(50) DEFAULT NULL,
   primary key (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
