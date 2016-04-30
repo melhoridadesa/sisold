@@ -1,5 +1,5 @@
 CREATE TABLE `idoso` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `cpf` varchar(11) NOT NULL,
   `nome` varchar(50) NOT NULL,
   `data_nascimento` date NOT NULL,
